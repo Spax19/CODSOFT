@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Landing-Page</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
+            <div class="menu-icon" onclick="toggleNavbar()">☰</div>
             <div class="navbar-links">
                 <div class="social-links">
                     <div class="links">
@@ -22,7 +23,7 @@
                         <button>Get in Touch</button>
                     </div>
                 </div>
-    
+
                 <div class="website-links">
                     <div class="website-info">
                         <img src="./images/hal-gatewood-weRQAu9TA-A-unsplash.jpg" alt="Logo">
@@ -38,6 +39,12 @@
             </div>
         </nav>
     </header>
+    <script>
+        function toggleNavbar() {
+            var navbarLinks = document.querySelector('.navbar-links');
+            navbarLinks.classList.toggle('show');
+        }
+    </script>
 
     <section id="hero">
         <div class="container">
