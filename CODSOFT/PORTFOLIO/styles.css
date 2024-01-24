@@ -149,9 +149,9 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  padding-top: 4px;
+  height: 100%;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -166,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80%;
+  height: 100%;
   border-radius: 15px;
 }
 
@@ -445,9 +445,9 @@ footer p {
   text-align: center;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1480px ) {
     #profile {
-      height: 83vh;
+      height: 100%;
       margin-bottom: 6rem;
     }
     .about-containers {
@@ -459,7 +459,7 @@ footer p {
     }
   }
   
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1080px) {
     #desktop-nav {
       display: none;
     }
