@@ -105,81 +105,38 @@ body {
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    background: linear-gradient(to right, #800060, transparent);
+    background: linear-gradient(to right, #9acd32, transparent);
     color: #fff;
-    height: 40px;
+    height: 25%;
     font-size: 16px;
     font-weight: 600;
-    z-index: 996;
-    transition: all 0.5s;
+    display: flex;
   }
   
-  #topbar.topbar-scrolled {
-    top: -40px;
+  #topbar .container{
+    text-align: right;
+    color: rgb(126, 124, 124);
+    margin: 15px 10px;
+    justify-content: space-evenly;
   }
-  
-  #topbar i {
-    padding-right: 6px;
-    line-height: 0;
-  }
-  
-  /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
-  #header {
-    background: #fff;
-    transition: all 0.5s;
-    
-    padding: 20px 0;
-    top: 40px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  @media (max-width: 992px) {
-    #header {
-      padding: 15px 0;
-    }
-  }
-  
-  #header.header-scrolled {
-    top: 0;
-  }
-  
-  #header .logo {
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  }
-  
-  #header .logo a {
-    color: #555555;
-  }
-  
-  #header .logo img {
-    max-height: 100px;
-  }
-  
-  /**
-  * Appointment Button
-  */
+
   .appointment-btn {
-    margin-left: 25px;
-    background: #800060;
+    width: 15%;
+    background: linear-gradient(to left, #806600, transparent);
     color: #fff;
     border-radius: 4px;
-    padding: 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
+    padding: 15px 20px;
     font-size: 14px;
-    display: inline-block;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
   }
   
   .appointment-btn:hover {
-    background: linear-gradient(to right, #800060, transparent);
+    background: linear-gradient(to left, #faebd7, transparent);
     color: #fff;
   }
   
@@ -190,6 +147,41 @@ body {
     }
   }
   
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
+    background: whitesmoke;
+    box-shadow: 0px 2px 15px rgba(4, 3, 3, 0.1);
+    display: block;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  @media (max-width: 992px) {
+    #header {
+      padding: 15px 0;
+    }
+  }
+
+  #box{
+    float: right;
+    margin-right: 18rem;
+  }
+  
+  #box h1{
+    font-size: 28px;
+    color: yellowgreen;
+    margin-right: 5rem;
+  }
+  
+  #header img {
+    max-height: 100px;
+    border-radius: 50%;
+  }
+  
+  
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -197,7 +189,9 @@ body {
   * Desktop Navigation 
   */
   .navbar {
-    padding: 0;
+    align-items: center;
+    margin-left: 5rem;
+    margin: 2.5rem 0 10rem;
   }
   
   .navbar ul {
@@ -238,7 +232,7 @@ body {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #800060;
+    color: #faebd7;
   }
   
   .navbar .dropdown ul {
@@ -1801,8 +1795,17 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+      
+    
   }
-  
+
+  /* #social{
+    background: url('images/fb.svg') no-repeat;
+      width: 50px; 
+      height: 50px;
+      display: inline-block;
+  }*/
+
   #footer .footer-top .social-links a:hover {
     background: #800060;
     text-decoration: none;
