@@ -14,7 +14,12 @@ body{
     padding: 10% 0 10% 0;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
+}
+
+.container{
     background: linear-gradient(15deg, #ffffff, #785303);
+    border-radius: 16px;
 }
 
 .calculator{
