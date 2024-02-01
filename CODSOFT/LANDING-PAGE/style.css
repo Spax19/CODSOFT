@@ -382,7 +382,9 @@
   
     .card {
       margin-bottom: 50px;
-      transform: rotate(0deg);
+      transform: rotate(-4deg); 
+      box-shadow: #111 0px 0px 15px;
+      transition: transform 0.3s ease-in-out;
     }
 
     .card:hover:{
