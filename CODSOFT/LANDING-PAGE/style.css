@@ -361,7 +361,7 @@
   
   .card p {
     padding: 0 15px 15px;
-    margin: 20px
+    margin: 20px;
     color: #666;
     text-align: center;
   }
@@ -387,8 +387,8 @@
       transition: transform 0.3s ease-in-out;
     }
 
-    .card:hover:{
-      transform scale(1.1);
+    .card:hover{
+      transform: scale(1.1);
     }
   
     .card img {

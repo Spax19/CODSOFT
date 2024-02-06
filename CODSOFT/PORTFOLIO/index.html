@@ -9,8 +9,6 @@
   </head>
   <body>
 
-    <!-- ======= Navbar Section ======= -->
-
     <nav id="desktop-nav">
       <div class="logo">Koketso Dibakwana</div>
       <div>
@@ -22,374 +20,439 @@
         </ul>
       </div>
     </nav>
-
-    <nav id="hamburger-nav">
-      <div class="logo">Koketso D</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </nav>
-
-    <!-- ======= Profile Section ======= -->
     
-    <section id="profile">
+    <div class="portfolio-container">
 
-      <div class="section-pic-container">
-         <img class="profile-pic" src="./assets/profile-pic.jpg" alt="Koketso's profile picture" />
-      </div>
+      <!-- ======= Navbar Section ======= -->
 
-      <div class="section-text">
+      
 
-        <p class="section-text__p1">Hello, I'm</p>
-        <h1 class="title">Koketso Motsepe Dibakwana</h1>
-        <p class="section-text__p2">Frontend Developer</p>
-        <p class="section-text__p3">
-          I am a Frontend Developer based in Johannesburg, South Africa. I
-          specialize in building responsive and interactive websites and web
-          applications. I am passionate about building excellent software that
-          improves the lives of those around me. I specialize in creating
-          software for clients ranging from individuals and small-businesses all
-          the way to large enterprise corporations. 
-        </p>
+      <nav id="hamburger-nav">
+        <div class="logo">Koketso D</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <hr/>
 
-        <div class="btn-container">
-          <button
-            class="btn"
-            onclick="window.open('./assets/resume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+      <!-- ======= Profile Section ======= -->
+      
+      <section id="profile">
+
+        <div class="section-pic-container">
+          <img class="profile-pic" src="./assets/profile-pic.jpg" alt="Koketso's profile picture" />
         </div>
 
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
+        <div class="section-text">
 
-      </div>
-
-    </section>
-
-    <!-- ======= About Section ======= -->
-
-    <section id="about">
-
-      <p class="section-text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-
-      <div class="section-container">
+          <p class="section-text__p1">Hello, I'm</p>
+          <h1 class="title">Koketso Motsepe Dibakwana</h1>
         
-        <div class="about-details-container">
+          <p class="section-text__p3">
+            I am a Software Developer based in Johannesburg, South Africa. I
+            specialize in building responsive and interactive websites and web
+            applications. I am passionate about building excellent software that
+            improves the lives of those around me. I specialize in creating
+            software for clients ranging from individuals and small-businesses all
+            the way to large enterprise corporations. 
+          </p>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- ======= About Section ======= -->
+
+      <section id="about">
+
+        <p class="section-text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+          
+          <div class="about-details-container">
+
+            <div class="about-containers">
+
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <hr/>
+                <p>1 year Software Development/Frontend Designer</p>
+              </div>
+
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Award</h3>
+                <hr/>
+                <p>Artificial Intelligence in the 4IR</p>
+              </div>
+
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <hr/>
+                <p>Dip Business Information Technology</p>
+              </div>
+
+            </div>
+
+        
+              <p class="about-description">
+                  Energetic and results-driven third-year
+                  software developer with a strong focus
+                  on front-end excellence. Am a versatile
+                  team player, seamlessly transitioning
+                  between front-end and back-end tasks
+                  to deliver top-notch solutions. Led two
+                  out of four high-impact group projects,
+                  achieving excellent results through
+                  innovation, collaboration, and a passion
+                  for pushing boundaries. I believe my
+                  dedication, adaptability, and technical
+                  prowess, are what make me a standout
+                  contributor in any development team.
+              </p>
+            
+
+          </div>
+
+          <div class="rounded-about-pic">
+              <img
+                src="./assets/profile.jpg"
+                alt="Profile picture"
+                class="about-pic"
+              />
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- ======= Experience Section ======= -->
+
+      <section id="experience">
+
+        <p class="section-text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experience-details-container">
 
           <div class="about-containers">
 
             <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1+ years <br />Software Development/Frontend Designer</p>
+
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <hr/>
+              <div class="article-container">
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Material UI</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+              </div>
+
             </div>
 
             <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Dip Business Information Technology<br />Artificial Intelligence in the 4IR </p>
-            </div>
 
-          </div>
+              <h2 class="experience-sub-title">Backend Development</h2>
+              <hr/>
+              <div class="article-container">
 
-       
-            <p class="about-description">
-                Energetic and results-driven third-year
-                software developer with a strong focus
-                on front-end excellence. Am a versatile
-                team player, seamlessly transitioning
-                between front-end and back-end tasks
-                to deliver top-notch solutions. Led two
-                out of four high-impact group projects,
-                achieving excellent results through
-                innovation, collaboration, and a passion
-                for pushing boundaries. I believe my
-                dedication, adaptability, and technical
-                prowess, are what make me a standout
-                contributor in any development team.
-            </p>
-          
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PostgreSQL</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
 
-        </div>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
 
-        <div class="rounded-about-pic">
-            <img
-              src="./assets/profile.jpg"
-              alt="Profile picture"
-              class="about-pic"
-            />
-        </div>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
 
-      </div>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
 
-    </section>
 
-    <!-- ======= Experience Section ======= -->
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
 
-    <section id="experience">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
 
-      <p class="section-text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-
-      <div class="experience-details-container">
-
-        <div class="about-containers">
-
-          <div class="details-container">
-
-            <h2 class="experience-sub-title">Frontend Development</h2>
-
-            <div class="article-container">
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-
-            </div>
-
-          </div>
-
-          <div class="details-container">
-
-            <h2 class="experience-sub-title">Frontend Development</h2>
-
-            <div class="article-container">
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+              </div>
 
             </div>
 
           </div>
 
         </div>
-
-      </div>
-      
-    </section>
-
-    <!-- ======= Projects Section ======= -->
-
-    <section id="projects">
-
-      <p class="section-text__p1">Browse My Live</p>
-      <h1 class="title">Project</h1>
-
-      <div class="experience-details-container">
-
-        <div class="about-containers">
-
-          <div class="details-container color-container">
-
-            <div class="article-container">
-
-              <img
-                src="./assets/thobani.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-
-            <h2 class="experience-sub-title project-title">Thobanipsych</h2>
-
-            <div class="btn-container">
-              <button
-                class="btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn"
-                onclick="location.href='https://thobanpsych.co.za/'"
-              >
-                Live Demo
-              </button>
-            </div>
-
-          </div>
-
-          
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ======= Contacts Section ======= -->
-
-    <section id="contact">
-
-      <p class="section-text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-
-      <div class="contact-info-upper-container">
         
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">Kmotsepe807@gmail.com</a></p>
+      </section>
+
+      <!-- ======= Projects Section ======= -->
+
+      <section id="projects">
+
+        <p class="section-text__p1">Projects I've</p>
+        <h1 class="title">Worked On</h1>
+
+        <div class="experience-details-container">
+
+          <div class="about-containers">
+
+            <div class="details-container color-container">
+
+              <div class="article-container">
+
+                <img
+                  src="./assets/thobani.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+
+              <h2 class="experience-sub-title project-title">Thobanpsych</h2>
+              <hr/>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://thobanpsych.co.za/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+
+            </div>
+
+            <div class="details-container color-container">
+
+              <div class="article-container">
+
+                <img
+                  src="./assets/truth.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+
+              <h2 class="experience-sub-title project-title">Truth Wellness</h2>
+              <hr/>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://www.truthwellness.co.uk/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+
+            </div>
+            
+
+          </div>
+
         </div>
 
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/koketso-motsepe-533a0320b/">LinkedIn</a></p>
+      </section>
+
+      <!-- ======= Contacts Section ======= -->
+
+      <section id="contact">
+
+        <p class="section-text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info-upper-container">
+          
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">Kmotsepe807@gmail.com</a></p>
+          </div>
+
+          <div class="contact-info-container">
+            <img
+              src="./assets/discord.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/koketso-motsepe-533a0320b/">Koketso M</a></p>
+          </div>
+
         </div>
 
-      </div>
-
-    </section>
+      </section>
+    </div>
 
     <!-- ======= Footer Section ======= -->
 
@@ -406,9 +469,7 @@
         </div>
       </nav>
 
-      <p>Copyright &#169; 2024 <strong><span>Koketso M</span></strong>. All Rights Reserved.</p>
+      <p class="footer-copyright">Copyright &#169; 2024 <strong><span>Koketso M</span></strong>. All Rights Reserved.</p>
     </footer>
-
-   
   </body>
 </html>

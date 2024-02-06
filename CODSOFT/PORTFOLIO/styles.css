@@ -16,7 +16,22 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: white;
+}
+
+hr {
+  margin: 2rem; 
+  height: 2px; 
+  background-color: black; 
+  border: none; 
+}
+
+#socials-container .icon:hover{  
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.portfolio-container{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgb(85, 85, 85) 45%, rgb(85, 85, 85) 50%, rgba(255, 255, 255, 0.5) 100%);
 }
 
 /* TRANSITION */
@@ -202,7 +217,12 @@ section {
 }
 
 .profile-pic{
-  border-radius: 2rem;
+  border-radius: 13px;
+  box-shadow: rgb(181, 181, 181) 10px 20px 15px;
+}
+
+.profile-pic:hover{
+  transform: scale(0.9);
 }
 
 .title {
@@ -231,6 +251,9 @@ section {
 
   .section-text {
     width: 100%;
+  }
+  .profile-pic:hover{
+    transform: none;
   }
 }
 
@@ -265,6 +288,8 @@ section {
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
+  transform: scale3d(1.1, 1.1, 1.1);
+  box-shadow: rgb(181, 181, 181) 10px 10px 15px;
 }
 
 .btn-color-1,
@@ -323,10 +348,17 @@ section {
 }
 
 .rounded-about-pic {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.rounded-about-pic:hover{
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.details-container p, h3{
+  color:rgb(85, 85, 85);
 }
 
 @media screen and (max-width: 768px) {
@@ -423,6 +455,10 @@ article .icon {
   width: 90%;
   height: 90%;
 }
+.project-img:hover{
+  transform: scale3d(0.9, 0.9, 0.9);
+
+}
 
 .project-title {
   margin: 1rem;
@@ -482,9 +518,11 @@ footer {
   margin: 0 1rem;
 }
 
-footer p {
+.footer-copyright {
   text-align: center;
+  color:rgb(85, 85, 85);  
 }
+
 
 @media screen and (max-width: 1480px ) {
     #profile {
