@@ -2,7 +2,7 @@ CODSFOT Internship Repository
 Welcome to my CODSFOT internship repository! 🚀
 
 About
-This repository contains the projects and assignments completed during my participation in the CODSFOT (Coding for Software) internship program. As a recent software development graduate, I am excited to showcase my skills, learnings, and passion for coding through this repository.
+This repository contains the projects and assignments completed during my participation in the CODSFOT Web Development internship program. As a recent software development graduate, I am excited to showcase my skills, learnings, and passion for coding through this repository.
 
 Projects
 Project 1: Landing Page
