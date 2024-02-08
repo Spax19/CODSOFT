@@ -34,12 +34,6 @@ hr {
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgb(85, 85, 85) 45%, rgb(85, 85, 85) 50%, rgba(255, 255, 255, 0.5) 100%);
 }
 
-/* TRANSITION */
-
-a,
-.btn {
-  transition: all 300ms ease;
-}
 
 /* DESKTOP NAV */
 

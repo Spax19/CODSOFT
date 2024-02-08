@@ -2,6 +2,14 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
   }
+
+  hr {
+    margin: 2rem; 
+    height: 2px; 
+    background-color: black; 
+    border: none; 
+  }
+  
   
   /*--------------------------------------------------------------
   # Top Bar
@@ -167,7 +175,7 @@
     height: 100%;
     width: 100%;
     border-radius: 8px;
-    background: linear-gradient(to left, #9acd32, transparent);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, yellowgreen 25%, rgb(90, 135, 0) 50%, rgba(255, 255, 255, 0.5) 100%);
   }
   .welcome-section {
     height: 100%;
@@ -227,9 +235,30 @@
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: yellowgreen;
+    color: ghostwhite;
     text-align: center;
   }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.pic-container{
+  width: 80%;
+    margin-bottom: 20px;
+}
+
+.image-gallery img {
+    max-width: 70%;
+    height: 70%;
+    margin-right: 10px;
+    border-radius: 8px;
+}
 
   .about-content span {
     font-size: 35px;
